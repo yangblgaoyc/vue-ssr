@@ -31,7 +31,7 @@ module.exports = (cb) => {
     //console.log(serverBundle)
 
     // client Bundle json文件
-    let clientBundle = await axios.get('http://localhost:5000/vue-ssr-client-manifest.json')
+    let clientBundle = await axios.get('http://localhost:8080/vue-ssr-client-manifest.json')
 
     // 模板
 
